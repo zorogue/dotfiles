@@ -310,6 +310,25 @@ defaults write com.apple.commerce AutoUpdate -bool true
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 ###############################################################################
+# Energy saving                                                               #
+###############################################################################
+
+# Enable lid wakeup
+sudo pmset -a lidwake 1
+
+# Restart automatically on power loss
+sudo pmset -a autorestart 1
+
+# Sleep the display after X minutes
+sudo pmset -a displaysleep 25
+
+# Disable machine sleep while charging
+sudo pmset -c sleep 0
+
+# Set standby delay to 24 hours (default is 1 hour)
+sudo pmset -a standbydelay 86400
+
+###############################################################################
 # Kill/restart affected applications                                          #
 ###############################################################################
 
