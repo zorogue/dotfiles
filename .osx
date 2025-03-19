@@ -185,7 +185,7 @@ defaults write com.apple.dock showhidden -bool true
 defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Set the Dock position (left, bottom, right)
-defaults write com.apple.dock "orientation" -string "right"
+defaults write com.apple.dock "orientation" -string "left"
 
 # Hot corners
 # Possible values:
