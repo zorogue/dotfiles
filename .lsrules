@@ -20,8 +20,19 @@
     {
       "action": "allow",
       "process": "/Applications/Safari.app/Contents/MacOS/Safari"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+      "remote-hosts": ["microsoft.com", "sharepoint.com", "microsoftpersonalcontent.com", "trafficmanager.net"]
     }
   ]
 }
+
+
 
 
