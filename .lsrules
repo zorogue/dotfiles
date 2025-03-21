@@ -14,7 +14,7 @@
     },
     {
       "action": "allow",
-      "process": "/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal",
+      "process": "/System/Applications/Utilities/Terminal.app → /opt/homebrew/Cellar/git/*/libexec/git-core/git-remote-http",
       "remote-domains": "github.com"
     },
     {
