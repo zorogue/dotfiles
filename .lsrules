@@ -1,12 +1,19 @@
-{
-  "name": "Terminal Access - Github",
-  "description": "This rule allows LaunchBar to check for updates.",
-  "rules": [
-    {
-      "action": "allow",
-      "process": "/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal",
-      "remote-hosts": "github.com"
-    }
-  ]
-}
 
+[
+  {
+    "name": "Terminal Access - Github",
+    "description": "This rule allows LaunchBar to check for updates.",
+    "rules": [
+      {
+        "action": "allow",
+        "process": "/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal",
+        "remote-hosts": "github.com"
+      }
+    ]
+  },
+  {
+    "name": "Social Media Block List",
+    "description": "Blocks access to popular social media sites.",
+    "denied-remote-domains": ["facebook.com", "twitter.com", "youtube.com"]
+  }
+]
