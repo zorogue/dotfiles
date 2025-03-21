@@ -5,17 +5,17 @@
     {
       "action": "allow",
       "process": "/Applications/Little Snitch.app/Contents/Components/Little Snitch Software Update.app/Contents/MacOS/Little Snitch Software Update",
-      "remote-hosts": "obdev.at"
+      "remote-domains": "obdev.at"
     },
     {
       "action": "allow",
       "process": "/Library/Application Support/Objective Development/Little Snitch/Components/at.obdev.littlesnitch.daemon.bundle/Contents/XPCServices/at.obdev.littlesnitch.networking.xpc/Contents/MacOS/at.obdev.littlesnitch.networking",
-      "remote-hosts": ["githubusercontent.com", "obdev.at"]
+      "remote-domains": ["githubusercontent.com", "obdev.at"]
     },
     {
       "action": "allow",
       "process": "/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal",
-      "remote-hosts": "github.com"
+      "remote-domains": "github.com"
     },
     {
       "action": "allow",
@@ -28,7 +28,7 @@
     {
       "action": "allow",
       "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
-      "remote-hosts": ["microsoft.com", "sharepoint.com", "microsoftpersonalcontent.com", "trafficmanager.net"]
+      "remote-domains": ["microsoft.com", "sharepoint.com", "microsoftpersonalcontent.com", "trafficmanager.net"]
     }
   ]
 }
