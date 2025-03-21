@@ -21,6 +21,9 @@ plugins=(git brew history kubectl history-substring-search)
 # Custom $PATH with extra locations.
 export PATH=/opt/homebrew/bin:$HOME/Library/Python/3.12/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$HOME/.local/bin:$HOME/go/bin:/usr/local/git/bin:$HOME/.composer/vendor/bin:$PATH
 
+eval "$(pyenv init -)"
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -))"; fi
+
 # Bash-style time output.
 export TIMEFMT=$'\nreal\t%*E\nuser\t%*U\nsys\t%*S'
 
