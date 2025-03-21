@@ -9,8 +9,19 @@
     },
     {
       "action": "allow",
+      "process": "/Library/Application Support/Objective Development/Little Snitch/Components/at.obdev.littlesnitch.daemon.bundle/Contents/XPCServices/at.obdev.littlesnitch.networking.xpc/Contents/MacOS/at.obdev.littlesnitch.networking",
+      "remote-hosts": "githubusercontent.com"
+    },
+    {
+      "action": "allow",
       "process": "/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal",
       "remote-hosts": "github.com"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Safari.app/Contents/MacOS/Safari"
     }
   ]
 }
+
+
