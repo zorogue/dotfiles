@@ -28,11 +28,20 @@
     {
       "action": "allow",
       "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
-      "remote-domains": ["microsoft.com", "sharepoint.com", "microsoftpersonalcontent.com", "trafficmanager.net"]
+      "remote-domains": ["microsoft.com", "sharepoint.com", "microsoftpersonalcontent.com", "trafficmanager.net", "windows.net", "live.com"]
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Splashtop Personal.app",
+      "remote-domains": "splashtop.com"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Splashtop Streamer.app/Contents/MacOS/SRStreamerDaemon",
+      "remote-domains": "splashtop.com"
     }
   ]
 }
-
 
 
 
