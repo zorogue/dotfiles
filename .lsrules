@@ -1,11 +1,12 @@
 {
-  "name": "LaunchBar Software Update",
+  "name": "Terminal Access - Github",
   "description": "This rule allows LaunchBar to check for updates.",
   "rules": [
     {
       "action": "allow",
-      "process": "/Applications/LaunchBar.app/Contents/MacOS/LaunchBar",
-      "remote-hosts": "sw-update.obdev.at"
+      "process": "/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal",
+      "remote-hosts": "github.com"
     }
   ]
 }
+
