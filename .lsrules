@@ -39,6 +39,10 @@
       "action": "allow",
       "process": "/Applications/Splashtop Streamer.app/Contents/MacOS/SRStreamerDaemon",
       "remote-domains": "splashtop.com"
+    },
+    {
+      "action": "deny",
+      "process": "/Applications/Visual Studio Code.app"
     }
   ]
 }
