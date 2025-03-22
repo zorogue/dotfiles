@@ -64,7 +64,7 @@
     {
       "action": "allow",
       "process": "identifier.MXGJJ98X76/com.valvesoftware.steam",
-      "remote-domains": "steampowered.com"
+      "remote-domains": ["steampowered.com", "steamserver.net", "steamstatic.com"]
     }
   ]
 }
