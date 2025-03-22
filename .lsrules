@@ -62,6 +62,10 @@
       "remote-domains": "me.com"
     },
     {
+      "action": "deny",
+      "process": "identifier.APPLE/com.apple.mail"
+    },
+    {
       "action": "allow",
       "process": "identifier.MXGJJ98X76/com.valvesoftware.steam",
       "remote-domains": ["steampowered.com", "steamserver.net", "steamstatic.com"]
