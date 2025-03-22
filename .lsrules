@@ -14,6 +14,16 @@
     },
     {
       "action": "allow",
+      "process": "identifier.MLZF7K7B5R/at.obdev.littlesnitch",
+      "remote-domains": "obdev.at"
+    },
+    {
+      "action": "allow",
+      "process": "identifier.MLZF7K7B5R/at.obdev.littlesnitch.networking",
+      "remote-domains": ["yoyo.org", "obdev.at"]
+    },
+    {
+      "action": "allow",
       "process": "identifier.APPLE/com.apple.Terminal",
       "via": "path.opt/homebrew/Cellar/git/*/libexec/git-core/git-remote-http",
       "remote-domains": "github.com"
@@ -64,7 +74,7 @@
     {
       "action": "allow",
       "process": "identifier.MXGJJ98X76/com.valvesoftware.steam.helper",
-      "remote-domains": ["akamaihd.net", "steamcommunity.com", "steampowered.com", "steamstatic.com", "steamusercontent.com", "steam-chat.com", "youtube.com"],
+      "remote-domains": ["akamaihd.net", "steamcommunity.com", "steampowered.com", "steamstatic.com", "steamusercontent.com", "steam-chat.com", "youtube.com"]
     },
     {
       "action": "allow",
