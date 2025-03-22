@@ -37,6 +37,10 @@
     },
     {
       "action": "allow",
+      "process": "identifier.APPLE/com.apple.AMPDeviceDiscoveryAgent"
+    },
+    {
+      "action": "allow",
       "process": "identifier.APPLE/com.apple.nsurlsessiond",
       "remote-domains": [
         "amazonaws.com",
@@ -608,3 +612,4 @@
     }
   ]
 }
+
