@@ -107,6 +107,14 @@
     },
     {
       "action": "allow",
+      "process": "identifier.CPQQ3AW49Y/com.splashtop.Splashtop-Streamer.daemon",
+      "remote-domains": [
+        "splashtop.com",
+        "apple.com"
+      ]
+    },
+    {
+      "action": "allow",
       "process": "identifier.APPLE/com.apple.mail"
     },
     {
