@@ -58,8 +58,10 @@
     },
     {
       "action": "allow",
-      "process": "/System/Applications/Mail.app",
+      "process": "identifier.APPLE/com.apple.mail",
       "remote-domains": "me.com"
     }
   ]
 }
+
+
