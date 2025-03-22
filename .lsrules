@@ -61,13 +61,13 @@
       "process": "identifier.APPLE/com.apple.mail",
     },
     {
-      "action": "deny",
-      "process": "identifier.APPLE/com.apple.mail"
-    },
-    {
       "action": "allow",
       "process": "identifier.MXGJJ98X76/com.valvesoftware.steam",
       "remote-domains": ["steampowered.com", "steamserver.net", "steamstatic.com"]
+    },
+    {
+      "action": "ask",
+      "denied-remote-domains": ["facebookmail.com", "fbcdn.net", "facebook.com"]
     }
   ]
 }
