@@ -115,19 +115,17 @@
     {
       "action": "allow",
       "process": "/Applications/Splashtop Personal.app/Contents/MacOS/Splashtop Personal",
-      "remote-domains": "splashtop.com"
-    },
-    {
-      "action": "allow",
-      "process": "/Applications/Splashtop Streamer.app/Contents/MacOS/SRStreamerDaemon",
-      "remote-domains": "splashtop.com"
+      "remote-domains": [
+        "splashtop.com",
+        "wtfrud.org"
+      ]
     },
     {
       "action": "allow",
       "process": "identifier.CPQQ3AW49Y/com.splashtop.Splashtop-Streamer.daemon",
       "remote-domains": [
         "splashtop.com",
-        "apple.com"
+        "wtfrud.org"
       ]
     },
     {
