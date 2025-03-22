@@ -60,10 +60,11 @@
       "action": "allow",
       "process": "identifier.APPLE/com.apple.mail",
       "remote-domains": "me.com"
+    },
+    {
+      "action": "allow",
+      "process": "identifier.MXGJJ98X76/com.valvesoftware.steam",
+      "remote-domains": "steampowered.com"
     }
   ]
 }
-
-
-
-
