@@ -42,7 +42,7 @@
     },
     {
       "action": "deny",
-      "process": "/Applications/Visual Studio Code.app"
+      "process": "/Applications/Visual Studio Code.app/Contents/MacOS/Electron"
     }
   ]
 }
