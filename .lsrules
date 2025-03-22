@@ -272,6 +272,20 @@
     },
     {
       "action": "allow",
+      "process": "identifier.APPLE/com.apple.homeenergyd",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
       "process": "identifier.APPLE/com.apple.Maps",
       "remote-domains": [
         "apple",
