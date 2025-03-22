@@ -190,6 +190,10 @@
       "action": "allow",
       "process": "appGroup.macOS",
       "remote-domains": ["apple", "apple.com", "apple-cloudkit.com", "apple-mapkit.com", "cdn-apple.com", "mzstatic.com", "icloud.com", "icloud-content.com"]
+    },
+    {
+      "action": "deny",
+      "process": "identifier.APPLE/com.apple.stocks.widget"
     }
   ]
 }
