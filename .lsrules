@@ -64,7 +64,7 @@
     {
       "action": "allow",
       "process": "/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync",
-      "ports": "8444",
+      "ports": "3838, 8444, 38266",
       "direction": "incoming"
     },
     {
@@ -223,7 +223,8 @@
         "cdn-apple.com",
         "mzstatic.com",
         "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "weather.com"
       ]
     },
     {
@@ -547,6 +548,17 @@
         "palworldgame.com",
         "pocketpair.jp"
       ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.SS6EX4ZNY6/SS6EX4ZNY6.com.pocketpair.palworld.mac.CrashReportClient",
+      "remote-domains": [
+        "epicgames.dev",
+        "palworldgame.com",
+        "pocketpair.jp",
+        "sentry.io"
+      ]
     }
   ]
 }
+
