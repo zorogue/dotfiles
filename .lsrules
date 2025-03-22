@@ -25,6 +25,10 @@
     },
     {
       "action": "allow",
+      "process": "identifier.L82V4Y2P3C/com.wireguard.macos.network-extension"
+    },
+    {
+      "action": "allow",
       "process": "identifier.APPLE/com.apple.nsurlsessiond",
       "remote-domains": [
         "amazonaws.com",
