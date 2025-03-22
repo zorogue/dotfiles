@@ -30,7 +30,13 @@
     {
       "action": "allow",
       "process": "/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync",
+      "ports": "8444",
       "direction": "incoming"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync",
+      "remote-domains": ["connect-license.resilio.com", "orders.resilio.com"]
     },
     {
       "action": "allow",
