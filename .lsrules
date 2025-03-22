@@ -39,7 +39,7 @@
     },
     {
       "action": "allow",
-      "process": "/Applications/Splashtop Personal.app",
+      "process": "/Applications/Splashtop Personal.app/Contents/MacOS/Splashtop Personal",
       "remote-domains": "splashtop.com"
     },
     {
@@ -55,6 +55,11 @@
       "action": "allow",
       "process": "/System/Applications/Music.app/Contents/MacOS/Music",
       "remote-domains": "cddbp.net"
+    },
+    {
+      "action": "allow",
+      "process": "/System/Applications/Mail.app",
+      "remote-domains": "me.com"
     }
   ]
 }
