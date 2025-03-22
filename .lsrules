@@ -70,7 +70,8 @@
     {
       "action": "allow",
       "process": "identifier.Q55YTJ84EN/unity.Klei.Oxygen Not Included",
-      "remote-addresses": "155.133.226.0/24"
+      "remote-addresses": ["155.133.226.0/24", "103.10.124.0/24", "146.66.152.0/24", "162.254.193.0/24"],
+      "remote-domains": ["githubusercontent.com", "klei.com", "kleientertainment.com"]
     },
     {
       "action": "allow",
