@@ -18,7 +18,8 @@
       "remote-domains": [ "yoyo.org",
                           "obdev.at",
                           "githubusercontent.com",
-                          "abuse.ch"]
+                          "abuse.ch",
+                          "jsdelivr.net"]
     },
     {
       "action": "allow",
