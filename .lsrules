@@ -9,18 +9,13 @@
     },
     {
       "action": "allow",
-      "process": "/Library/Application Support/Objective Development/Little Snitch/Components/at.obdev.littlesnitch.daemon.bundle/Contents/XPCServices/at.obdev.littlesnitch.networking.xpc/Contents/MacOS/at.obdev.littlesnitch.networking",
-      "remote-domains": ["githubusercontent.com", "obdev.at"]
-    },
-    {
-      "action": "allow",
       "process": "identifier.MLZF7K7B5R/at.obdev.littlesnitch",
       "remote-domains": "obdev.at"
     },
     {
       "action": "allow",
       "process": "identifier.MLZF7K7B5R/at.obdev.littlesnitch.networking",
-      "remote-domains": ["yoyo.org", "obdev.at"]
+      "remote-domains": ["yoyo.org", "obdev.at", "githubusercontent.com"]
     },
     {
       "action": "allow",
