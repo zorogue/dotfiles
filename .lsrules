@@ -39,6 +39,15 @@
     },
     {
       "action": "allow",
+      "process": "identifier.APPLE/com.apple.Terminal",
+      "via": "identifier.APPLE/com.apple.curl",
+      "remote-domains": [
+        "brew.sh",
+        "github.com"
+      ]
+    },
+    {
+      "action": "allow",
       "process": "/Applications/Safari.app/Contents/MacOS/Safari",
       "ports": "80, 443"
     },
