@@ -99,7 +99,27 @@
     {
       "action": "allow",
       "process": "identifier.APPLE/com.apple.AppStore",
-      "remote-domains": ["apple", "apple.com", "apple-cloudkit.com", "apple-mapkit.com", "cdn-apple.com", "mzstatic.com", "icloud.com", "icloud-content.com"]
+      "remote-domains": [ "apple",
+                          "apple.com",
+                          "apple-cloudkit.com",
+                          "apple-mapkit.com",
+                          "cdn-apple.com",
+                          "mzstatic.com",
+                          "icloud.com",
+                          "icloud-content.com"]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.appstoreagent",
+      "remote-domains": [ "apple",
+                          "apple.com",
+                          "apple-cloudkit.com",
+                          "apple-mapkit.com",
+                          "cdn-apple.com",
+                          "mzstatic.com",
+                          "icloud.com",
+                          "icloud-content.com",
+                          "ampaeservices.com"]
     },
     {
       "action": "allow",
