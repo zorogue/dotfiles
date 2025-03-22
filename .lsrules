@@ -70,7 +70,11 @@
     {
       "action": "allow",
       "process": "identifier.Q55YTJ84EN/unity.Klei.Oxygen Not Included",
-      "remote-addresses": ["155.133.0.0/16", "103.10.124.0/24", "146.66.152.0/24", "162.254.0.0/16"],
+      "remote-addresses": ["155.133.0.0/16", "103.10.124.0/24", "10.28.54.0/24", "169.150.222.0/24", "146.66.152.0/24", "162.254.0.0/16", "45.121.184.0/24", "205.196.6.0/24"]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.Q55YTJ84EN/unity.Klei.Oxygen Not Included",
       "remote-domains": ["githubusercontent.com", "klei.com", "kleientertainment.com"]
     },
     {
