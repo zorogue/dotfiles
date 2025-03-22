@@ -35,7 +35,7 @@
     {
       "action": "allow",
       "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
-      "remote-domains": ["microsoft.com", "sharepoint.com", "microsoftpersonalcontent.com", "trafficmanager.net", "windows.net", "live.com", "onedrive.com"]
+      "remote-domains": ["microsoft.com", "sharepoint.com", "microsoftpersonalcontent.com", "trafficmanager.net", "windows.net", "live.com", "onedrive.com", "office.com", "sfx.ms"]
     },
     {
       "action": "allow",
