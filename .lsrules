@@ -45,6 +45,12 @@
     },
     {
       "action": "allow",
+      "process": "identifier.APPLE/com.apple.Safari.SafeBrowsing",
+      "remote-domains": "googleapis.com",
+      "ports": "80, 443"
+    },
+    {
+      "action": "allow",
       "process": "/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync",
       "ports": "8444",
       "direction": "incoming"
