@@ -23,13 +23,20 @@
     },
     {
       "action": "allow",
+      "process": "identifier.APPLE/com.apple.nsurlsessiond",
+      "via": "path.opt/homebrew/Cellar/git/*/libexec/git-core/git-remote-http",
+      "remote-domains": ["amazonaws.com", "googleapis.com"]
+    },
+    {
+      "action": "allow",
       "process": "identifier.APPLE/com.apple.Terminal",
       "via": "path.opt/homebrew/Cellar/git/*/libexec/git-core/git-remote-http",
       "remote-domains": "github.com"
     },
     {
       "action": "allow",
-      "process": "/Applications/Safari.app/Contents/MacOS/Safari"
+      "process": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "ports": "80, 443"
     },
     {
       "action": "allow",
