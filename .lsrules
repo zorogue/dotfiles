@@ -89,7 +89,7 @@
     {
       "action": "allow",
       "process": "identifier.UBF8T346G9/com.microsoft.VSCode",
-      "remote-domains": ["microsoft.com", "visualstudio.com", "vscode-cdn.net", "github.com"]
+      "remote-domains": ["microsoft.com", "visualstudio.com", "vscode-cdn.net", "github.com", "exp-tas.com"]
     },
     {
       "action": "allow",
