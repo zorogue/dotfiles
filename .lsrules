@@ -64,7 +64,11 @@
     {
       "action": "allow",
       "process": "identifier.MXGJJ98X76/com.valvesoftware.steam.helper",
-      "remote-domains": ["akamaihd.net", "steamcommunity.com", "steampowered.com", "steamstatic.com", "steamusercontent.com"],
+      "remote-domains": ["akamaihd.net", "steamcommunity.com", "steampowered.com", "steamstatic.com", "steamusercontent.com", "steam-chat.com", "youtube.com"],
+    },
+    {
+      "action": "allow",
+      "process": "identifier.MXGJJ98X76/com.valvesoftware.steam.helper",
       "denied-remote-domains": "googleapis.com"
     },
     {
