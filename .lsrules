@@ -48,6 +48,10 @@
       "remote-domains": "splashtop.com"
     },
     {
+      "action": "deny",
+      "process": "/Applications/Visual Studio Code.app/Contents/MacOS/Electron"
+    },
+    {
       "action": "allow",
       "process": "/System/Applications/Music.app/Contents/MacOS/Music",
       "remote-domains": "cddbp.net"
@@ -60,7 +64,11 @@
       "action": "allow",
       "process": "identifier.MXGJJ98X76/com.valvesoftware.steam",
       "remote-domains": ["steampowered.com", "steamserver.net", "steamstatic.com"]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.UBF8T346G9/com.microsoft.VSCode",
+      "remote-domains": ["microsoft.com", "visualstudio.com", "vscode-cdn.net", "github.com"]
     }
   ]
 }
-
