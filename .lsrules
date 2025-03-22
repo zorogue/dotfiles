@@ -185,6 +185,11 @@
       "action": "allow",
       "process": "identifier.59GAB85EFG/com.apple.dt.Xcode",
       "remote-domains": ["apple", "apple.com", "apple-cloudkit.com", "apple-mapkit.com", "cdn-apple.com", "mzstatic.com", "icloud.com", "icloud-content.com"]
+    },
+    {
+      "action": "allow",
+      "process": "appGroup.macOS",
+      "remote-domains": ["apple", "apple.com", "apple-cloudkit.com", "apple-mapkit.com", "cdn-apple.com", "mzstatic.com", "icloud.com", "icloud-content.com"]
     }
   ]
 }
