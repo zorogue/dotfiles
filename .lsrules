@@ -15,7 +15,10 @@
     {
       "action": "allow",
       "process": "identifier.MLZF7K7B5R/at.obdev.littlesnitch.networking",
-      "remote-domains": ["yoyo.org", "obdev.at", "githubusercontent.com"]
+      "remote-domains": [ "yoyo.org",
+                          "obdev.at",
+                          "githubusercontent.com",
+                          "abuse.ch"]
     },
     {
       "action": "allow",
