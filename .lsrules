@@ -15,7 +15,7 @@
     {
       "action": "allow",
       "process": "identifier.APPLE/com.apple.Terminal",
-      "via": "/opt/homebrew/Cellar/git/*/libexec/git-core/git-remote-http",
+      "via": "path.opt/homebrew/Cellar/git/*/libexec/git-core/git-remote-http",
       "remote-domains": "github.com"
     },
     {
@@ -63,5 +63,7 @@
     }
   ]
 }
+
+
 
 
