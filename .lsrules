@@ -70,7 +70,7 @@
     {
       "action": "allow",
       "process": "identifier.Q55YTJ84EN/unity.Klei.Oxygen Not Included",
-      "denied-remote-addresses": "155.133.226.0/24"
+      "remote-addresses": "155.133.226.0/24"
     },
     {
       "action": "allow",
