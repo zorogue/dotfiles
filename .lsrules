@@ -48,6 +48,10 @@
       "remote-domains": "splashtop.com"
     },
     {
+      "action": "deny",
+      "process": "/Applications/Visual Studio Code.app/Contents/MacOS/Electron"
+    },
+    {
       "action": "allow",
       "process": "/System/Applications/Music.app/Contents/MacOS/Music",
       "remote-domains": "cddbp.net"
