@@ -75,21 +75,13 @@
     },
     {
       "action": "allow",
-      "process": "/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync",
+      "process": "identifier.2953Z5SZSK/com.resilio.Sync",
       "ports": "3838, 8444, 38266",
       "direction": "incoming"
     },
     {
       "action": "allow",
-      "process": "/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync",
-      "remote-domains": [
-        "connect-license.resilio.com",
-        "orders.resilio.com"
-      ]
-    },
-    {
-      "action": "allow",
-      "process": "/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync",
+      "process": "identifier.2953Z5SZSK/com.resilio.Sync",
       "direction": "outgoing"
     },
     {
@@ -176,7 +168,8 @@
       "remote-domains": [
         "steampowered.com",
         "steamserver.net",
-        "steamstatic.com"
+        "steamstatic.com",
+        "steamusercontent.com"
       ]
     },
     {
@@ -618,7 +611,17 @@
     {
       "action": "allow",
       "process": "identifier.APPLE/com.apple.usbmuxd"
+    },
+    {
+      "action": "allow",
+      "process": "identifier.MADPSAYN6T/org.torproject.torbrowser"
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.AMPDevicesAgent",
+      "remote-domains": [
+        "itunes.com"
+      ]
     }
   ]
 }
-
