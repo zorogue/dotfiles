@@ -4,7 +4,7 @@
   "rules": [
     {
       "action": "allow",
-      "process": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "process": "identifier.APPLE/com.apple.Safari",
       "ports": "80, 443"
     },
     {
