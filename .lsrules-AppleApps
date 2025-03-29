@@ -1,0 +1,352 @@
+{
+  "name": "Zorogue's Apple Apps Rule Group",
+  "description": "My personal rules.",
+  "rules": [
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.mail"
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.AppStore",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.appstoreagent",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "ampaeservices.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.iCal",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "weather.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.AddressBook",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.FaceTime",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.findmy",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.Home",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.homeenergyd",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.Maps",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.Music",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "cddbp.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.news",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "qwapi.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.news.widget",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "apple.news",
+        "qwapi.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.stocks",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.stocks.widget",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.Notes",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.Passwords",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.Photos",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.podcasts",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.reminders",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.siri.launcher",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.TV",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.weather",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.weather.widget",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.weather.menu",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    }
+  ]
+}
