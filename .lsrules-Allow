@@ -137,6 +137,12 @@
     },
     {
       "action": "allow",
+      "process": "identifier.CPQQ3AW49Y/com.splashtop.stp.macosx",
+      "direction": "incoming",
+      "ports": "61974"
+    },
+    {
+      "action": "allow",
       "process": "identifier.CPQQ3AW49Y/com.splashtop.Splashtop-Streamer.daemon",
       "remote-domains": [
         "splashtop.com",
@@ -144,16 +150,6 @@
         "apple.com",
         "local-net"
       ]
-    },
-    {
-      "action": "allow",
-      "process": "identifier.CPQQ3AW49Y/com.splashtop.stp.macosx",
-      "direction": "incoming",
-      "ports": "61974"
-    },
-    {
-      "action": "allow",
-      "process": "identifier.APPLE/com.apple.mail"
     },
     {
       "action": "allow",
