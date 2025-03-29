@@ -76,7 +76,7 @@
     {
       "action": "allow",
       "process": "identifier.2953Z5SZSK/com.resilio.Sync",
-      "ports": "3838, 8444, 38266",
+      "ports": "3838, 8444, 38266, 37138",
       "direction": "incoming"
     },
     {
