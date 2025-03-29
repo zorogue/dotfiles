@@ -374,21 +374,6 @@
     },
     {
       "action": "allow",
-      "process": "identifier.APPLE/com.apple.Music",
-      "remote-domains": [
-        "apple",
-        "apple.com",
-        "apple-cloudkit.com",
-        "apple-mapkit.com",
-        "cdn-apple.com",
-        "mzstatic.com",
-        "icloud.com",
-        "icloud-content.com",
-        "cddbp.net"
-      ]
-    },
-    {
-      "action": "allow",
       "process": "identifier.APPLE/com.apple.news",
       "remote-domains": [
         "apple",
@@ -583,7 +568,8 @@
         "cdn-apple.com",
         "mzstatic.com",
         "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "cddbp.net"
       ]
     },
     {
