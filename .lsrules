@@ -149,7 +149,8 @@
       "remote-domains": [
         "splashtop.com",
         "wtfrud.org",
-        "apple.com"
+        "apple.com",
+        "local-net"
       ]
     },
     {
