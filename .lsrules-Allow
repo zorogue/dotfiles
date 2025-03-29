@@ -279,6 +279,20 @@
       "remote-domains": [
         "itunes.com"
       ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.G69SCX94XU/ch.sudo.cyberduck",
+      "ports": "21, 22"
+    },
+    {
+      "action": "allow",
+      "process": "identifier.9BNSXJN65R/com.docker.docker",
+      "remote-domains": [
+        "docker.com",
+        "docker.io",
+        "bugsnag.com"
+      ]
     }
   ]
 }
