@@ -374,6 +374,52 @@
     },
     {
       "action": "allow",
+      "process": "identifier.APPLE/com.apple.Music",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "cddbp.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.news",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "qwapi.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.news.widget",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "apple.news",
+        "qwapi.com"
+      ]
+    },
+    {
+      "action": "allow",
       "process": "identifier.APPLE/com.apple.Notes",
       "remote-domains": [
         "apple",
@@ -537,23 +583,7 @@
         "cdn-apple.com",
         "mzstatic.com",
         "icloud.com",
-        "icloud-content.com",
-        "apple.news",
-        "cddbp.net"
-      ]
-    },
-    {
-      "action": "allow",
-      "process": "identifier.APPLE/com.apple.news",
-      "remote-domains": [
-        "qwapi.com"
-      ]
-    },
-    {
-      "action": "allow",
-      "process": "identifier.APPLE/com.apple.news.widget",
-      "remote-domains": [
-        "qwapi.com"
+        "icloud-content.com"
       ]
     },
     {
