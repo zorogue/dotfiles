@@ -1,5 +1,5 @@
 {
-  "name": "Z's Allow Rule Group",
+  "name": "Z's Allow",
   "description": "My personal rules.",
   "rules": [
     {
@@ -35,6 +35,13 @@
         "mzstatic.com",
         "icloud.com",
         "icloud-content.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.cloudd",
+      "remote-domains": [
+        "amazonaws.com"
       ]
     },
     {
@@ -75,17 +82,6 @@
         "brew.sh",
         "github.com"
       ]
-    },
-    {
-      "action": "allow",
-      "process": "/Applications/Safari.app/Contents/MacOS/Safari",
-      "ports": "80, 443"
-    },
-    {
-      "action": "allow",
-      "process": "identifier.APPLE/com.apple.Safari.SafeBrowsing",
-      "remote-domains": "googleapis.com",
-      "ports": "80, 443"
     },
     {
       "action": "allow",
@@ -337,3 +333,6 @@
     }
   ]
 }
+
+
+

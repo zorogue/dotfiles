@@ -1,7 +1,18 @@
 {
-  "name": "Z's Apple Apps Rule Group",
+  "name": "Z's Apple Apps",
   "description": "My personal rules.",
   "rules": [
+    {
+      "action": "allow",
+      "process": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "ports": "80, 443"
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.Safari.SafeBrowsing",
+      "remote-domains": "googleapis.com",
+      "ports": "80, 443"
+    },
     {
       "action": "allow",
       "process": "identifier.APPLE/com.apple.mail"
