@@ -80,7 +80,8 @@
       "via": "identifier.APPLE/com.apple.curl",
       "remote-domains": [
         "brew.sh",
-        "github.com"
+        "github.com",
+        "prusa3d.com"
       ]
     },
     {
@@ -292,6 +293,18 @@
         "docker.com",
         "docker.io",
         "bugsnag.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.9BNSXJN65R/com.docker.docker",
+      "remote-domains": [
+        "googleapis.com",
+        "jquery.com",
+        "printables.com",
+        "prusa3d.com",
+        "sentry-cdn.com",
+        "unpkg.com"
       ]
     }
   ]
