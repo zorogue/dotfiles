@@ -96,24 +96,6 @@
     },
     {
       "action": "allow",
-      "process": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
-      "remote-domains": [
-        "microsoft.com",
-        "sharepoint.com",
-        "microsoftpersonalcontent.com",
-        "trafficmanager.net",
-        "windows.net",
-        "live.com",
-        "onedrive.com",
-        "office.com",
-        "sfx.ms",
-        "appcenter.ms",
-        "windows.com",
-        "windows.com"
-      ]
-    },
-    {
-      "action": "allow",
       "process": "identifier.UBF8T346G9/com.microsoft.OneDrive-mac",
       "remote-domains": [
         "microsoft.com",
