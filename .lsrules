@@ -587,10 +587,6 @@
       ]
     },
     {
-      "action": "deny",
-      "process": "identifier.APPLE/com.apple.stocks.widget"
-    },
-    {
       "action": "allow",
       "process": "identifier.SS6EX4ZNY6/com.pocketpair.palworld.mac",
       "remote-domains": [
