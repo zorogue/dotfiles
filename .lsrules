@@ -30,7 +30,7 @@
     {
       "action": "allow",
       "process": "identifier.APPLE/com.apple.CaptiveNetworkAssistant"
-    },    
+    },
     {
       "action": "allow",
       "process": "identifier.L82V4Y2P3C/com.wireguard.macos.network-extension"
