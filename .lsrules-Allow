@@ -41,7 +41,8 @@
       "action": "allow",
       "process": "identifier.APPLE/com.apple.cloudd",
       "remote-domains": [
-        "amazonaws.com"
+        "amazonaws.com",
+        "googleapis.com"
       ]
     },
     {
