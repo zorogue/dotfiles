@@ -1,5 +1,14 @@
 {
   "name": "Z's Deny",
   "description": "My personal rules.",
-  "rules": []
+  "rules": [
+    {
+      "action": "deny",
+      "process": "identifier.67CQ77V27R/com.colliderli.iina"
+    },
+    {
+      "action": "deny",
+      "process": "identifier.C94ZNQ5JF3/openshot-qt"
+    }    
+  ]
 }
