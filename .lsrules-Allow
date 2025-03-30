@@ -78,11 +78,6 @@
       "action": "allow",
       "process": "identifier.APPLE/com.apple.Terminal",
       "via": "identifier.APPLE/com.apple.curl",
-      "remote-domains": [
-        "brew.sh",
-        "github.com",
-        "prusa3d.com"
-      ]
     },
     {
       "action": "allow",
@@ -159,7 +154,10 @@
         "steampowered.com",
         "steamserver.net",
         "steamstatic.com",
-        "steamusercontent.com"
+        "steamusercontent.com",
+        "steamcommunity.com",
+        "googleapis.com",
+        "us-east-1.amazonaws.com"
       ]
     },
     {
