@@ -305,6 +305,16 @@
         "sentry-cdn.com",
         "unpkg.com"
       ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.QED4VVPZWA/com.logitech.manager.daemon",
+      "remote-domains": [
+        "cloudfront.net",
+        "apple.com",
+        "logitech.com"
+      ]
     }
   ]
 }
+
