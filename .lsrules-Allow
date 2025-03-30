@@ -78,7 +78,7 @@
     {
       "action": "allow",
       "process": "identifier.APPLE/com.apple.Terminal",
-      "via": "identifier.APPLE/com.apple.curl",
+      "via": "identifier.APPLE/com.apple.curl"
     },
     {
       "action": "allow",
