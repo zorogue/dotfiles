@@ -140,6 +140,12 @@
     },
     {
       "action": "allow",
+      "process": "identifier.CPQQ3AW49Y/com.splashtop.stp.macosx",
+      "direction": "outgoing",
+      "ports": "60911"
+    },
+    {
+      "action": "allow",
       "process": "identifier.CPQQ3AW49Y/com.splashtop.Splashtop-Streamer.daemon",
       "remote-domains": [
         "splashtop.com",
