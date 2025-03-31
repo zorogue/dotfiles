@@ -221,6 +221,38 @@
     },
     {
       "action": "allow",
+      "process": "identifier.APPLE/com.apple.news.tag",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "apple.news",
+        "qwapi.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.news.widgetintents",
+      "remote-domains": [
+        "apple",
+        "apple.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "icloud.com",
+        "icloud-content.com",
+        "apple.news",
+        "qwapi.com"
+      ]
+    },
+    {
+      "action": "allow",
       "process": "identifier.APPLE/com.apple.stocks",
       "remote-domains": [
         "apple",
@@ -389,3 +421,4 @@
     }
   ]
 }
+
