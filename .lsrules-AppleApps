@@ -34,9 +34,9 @@
       "action": "allow",
       "process": "identifier.APPLE/com.apple.identityservicesd",
       "remote-addresses": [
-        "17.188.178.56",
-        "17.188.179.27",
-        "17.188.182.142"
+        "17.188.178.0/24",
+        "17.188.179..0/24",
+        "17.188.182..0/24"
       ]
     },
     {
