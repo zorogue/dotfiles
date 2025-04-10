@@ -201,7 +201,8 @@
         "185.25.0.0/16",
         "188.42.106.0/24",
         "173.237.26.0/24",
-        "146.66.155.0/24"
+        "146.66.155.0/24",
+        "172.255.8.0/24"
       ]
     },
     {
@@ -221,7 +222,12 @@
         "visualstudio.com",
         "vscode-cdn.net",
         "github.com",
-        "exp-tas.com"
+        "exp-tas.com",
+        "docker.com",
+        "github.io",
+        "vsassets.io",
+        "vscode-unpkg.net"
+
       ]
     },
     {
@@ -333,8 +339,5 @@
     }
   ]
 }
-
-
-
 
 
