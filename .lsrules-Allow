@@ -232,6 +232,14 @@
     },
     {
       "action": "allow",
+      "process": "identifier.UBF8T346G9/com.microsoft.VSCode",
+      "via": "path.opt/homebrew/Cellar/git/*/libexec/git-core/git-remote-http",
+      "remote-domains": [
+        "github.com"
+      ]
+    },
+    {
+      "action": "allow",
       "process": "identifier.APPLE/com.apple.clock",
       "remote-domains": [
         "apple",
