@@ -344,8 +344,14 @@
         "msauth.net",
         "msftauth.net"
       ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.Safari",
+      "remote-domains": [
+        "plex.direct"
+      ],
+      "ports": "32400"
     }
   ]
 }
-
-
