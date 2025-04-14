@@ -427,7 +427,14 @@
         "icloud.com",
         "icloud-content.com"
       ]
+    },
+    {
+      "action": "allow",
+      "process": "identifier.APPLE/com.apple.helpviewer",
+      "remote-domains": [
+        "apple.com",
+        "cdn-apple.com"
+      ]
     }
   ]
 }
-

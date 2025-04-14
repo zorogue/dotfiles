@@ -352,6 +352,17 @@
         "plex.direct"
       ],
       "ports": "32400"
+    },
+    {
+      "action": "allow",
+      "process": "identifier.VDXQ22DGB9/com.todesktop.230313mzl4w4u92",
+      "remote-domains": [
+        "cursor.sh",
+        "vscode-cdn.net",
+        "cursor-cdn.com",
+        "github.io"
+      ]
     }
   ]
 }
+
