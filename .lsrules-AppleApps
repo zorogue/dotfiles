@@ -439,14 +439,3 @@
     }
   ]
 }
-
-
-
-action: allow
-direction: outgoing
-priority: regular
-process: identifier.APPLE/com.apple.stocks.widget
-owner: me
-destination: domain apple.news
-ports: any
-protocol: any
