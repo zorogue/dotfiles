@@ -136,13 +136,13 @@
       "action": "allow",
       "process": "identifier.CPQQ3AW49Y/com.splashtop.stp.macosx",
       "direction": "incoming",
-      "ports": "60000-69999"
+      "ports": "58000-69999"
     },
     {
       "action": "allow",
       "process": "identifier.CPQQ3AW49Y/com.splashtop.stp.macosx",
       "direction": "outgoing",
-      "ports": "60000-69999"
+      "ports": "58000-69999"
     },
     {
       "action": "allow",
